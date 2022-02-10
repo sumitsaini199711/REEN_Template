@@ -1,0 +1,116 @@
+ /* To be removed later */
+.wrapper{
+    background: url(../images/bg.png) no-repeat top center;
+    width: 1920px;
+    margin: 0 auto;
+}
+/*..................... */
+
+a{
+    text-decoration: none;
+}
+
+.container{
+    max-width: 1180px;
+    margin: 0 auto;
+}
+
+.flex{
+    display: flex;
+}
+
+.absolute{
+    position: absolute;
+}
+
+.space-between{
+    justify-content: space-between;
+}
+
+[class^="icon-"]{
+    background: url('../images/sprite.png') no-repeat;
+}
+
+/* header */
+
+.top_header_left a {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 12px;
+    position: relative;
+    font-weight: 400;
+    padding-left: 24px;
+    top: -3px;
+    color: #506a85;
+    margin-right: 16px;
+}
+
+.icon-mail {
+    top: 1px;
+    left: 4px;
+    width: 13px;
+    height: 10px;
+}
+
+.icon-phone {
+    width: 10px;
+    height: 15px;
+    top: 0px;
+    left: 7px;
+    background-position: -16px 0;
+}
+
+.icon-fb {
+    width: 10px;
+    height: 14px;
+    background-position: -24px 0;
+}
+
+.icon-google {
+    background-position: -36px 0;
+    width: 12px;
+    height: 14px;
+    top: 0px;
+    left: 4px;
+}
+
+.icon-twitter {
+    width: 11px;
+    height: 14px;
+    background-position: -52px 0;
+    top: 1px;
+}
+
+.icon-pin {
+    width: 11px;
+    height: 14px;
+    background-position: -65px 0;
+    top: 0px;
+}
+
+.icon-be {
+    width: 15px;
+    height: 13px;
+    background-position: -78px 0;
+    top: 2px;
+    left: 3px;
+}
+
+.icon-world {
+    width: 15px;
+    height: 13px;
+    background-position: -97px 0;
+    top: 0px;
+    left: 3px;
+}
+
+.top_header_right a {
+    position: relative;
+    top: -3px;
+    padding-left: 5px;
+    margin-right: 25px;
+}
+
+.top_header_right {
+    position: relative;
+    top: 3px;
+}
