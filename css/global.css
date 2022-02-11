@@ -23,6 +23,10 @@ a{
     position: absolute;
 }
 
+.relative{
+    position: relative;
+}
+
 .space-between{
     justify-content: space-between;
 }
@@ -113,4 +117,44 @@ a{
 .top_header_right {
     position: relative;
     top: 3px;
+}
+
+/* 2nd header */
+
+.bottom_header_sub{
+    padding: 33px;
+}
+
+.logo{
+    margin-left: 5px;
+    margin-right: 88px;
+}
+
+.nav_menu{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    
+}
+
+.nav_menu li {
+    margin-right: 42px;
+    margin-left: 0px;
+    margin-top: 13px;
+}
+.nav_menu li a{
+    color: #506a85;
+}
+
+.search {
+    margin-left: auto;
+    margin-top: 14px;
+    margin-right: 26px;
+}
+
+.icon-search{
+    width: 16px;
+    height: 15px;
+    background-position: -111px 0;
+    display: block;
 }
